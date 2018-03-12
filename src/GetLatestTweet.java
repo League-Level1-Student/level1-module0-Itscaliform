@@ -68,5 +68,7 @@ public class GetLatestTweet implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
+		if (arg0.getSource()==Button) {
+			System.out.println(getLatestTweet(textField.getText()));
+		}
 	}}
