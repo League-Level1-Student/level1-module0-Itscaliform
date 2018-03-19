@@ -67,7 +67,7 @@ import javax.swing.JPanel;
 			System.out.println("you typed: "+arg0.getKeyChar());
 			if(arg0.getKeyChar()==currentLetter) {
 				System.out.println("correct");
-				
+	
 			}
 			else {
 				System.out.println("wrong");
